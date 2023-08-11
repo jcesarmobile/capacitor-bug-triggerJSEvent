@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">capacitorTriggerJSEventReproduction</string>
+    <string name="title_activity_main">capacitorTriggerJSEventReproduction</string>
+    <string name="package_name">com.capacitor.reproduction.triggerJSEvent</string>
+    <string name="custom_url_scheme">com.capacitor.reproduction.triggerJSEvent</string>
+</resources>
