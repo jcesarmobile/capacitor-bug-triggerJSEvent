@@ -7,16 +7,15 @@ import com.getcapacitor.Plugin;
 import com.getcapacitor.PluginMethod;
 import com.getcapacitor.annotation.CapacitorPlugin;
 
-@CapacitorPlugin(name = "TestEvent")
-public class TestEvent extends Plugin {
+
+public class TestEvent {
     Bridge myBridge;
 
-    @Override
-    public void load() {
+    public TestEvent(Bridge bridge) {
+        super();
         myBridge = bridge;
     }
 
-    @PluginMethod
     public void testCall() {
         Log.d("TestEvent", "testCall!"); // Some random output
 

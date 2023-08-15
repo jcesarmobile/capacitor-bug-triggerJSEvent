@@ -20,7 +20,7 @@ public class TestPlugin extends Plugin {
 
         Log.d("TestPlugin", "testRun: " + value);
 
-        TestEvent testEvent = new TestEvent();
+        TestEvent testEvent = new TestEvent(bridge);
         testEvent.testCall();
     }
 }
